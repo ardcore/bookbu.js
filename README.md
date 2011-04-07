@@ -1,11 +1,11 @@
 Simple build script for bookmarklets.
 
 It makes few things:
-* minifies your code (using uglify-js)
-* wraps your code in `(function(){}())` if it's not wrapped yet
-* adds `javascript:` prefix
-* replaces `"` with `'`
-* optionally, generates HTML file with `A` element to test your bookmarklet
+ * minifies your code (using uglify-js)
+ * wraps your code in `(function(){}())` if it's not wrapped yet
+ * adds `javascript:` prefix
+ * replaces `"` with `'`
+ * optionally, generates HTML file with `A` element to test your bookmarklet
 
 Usage:
 `bookbu.js <filename> [html]`
