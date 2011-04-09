@@ -8,13 +8,17 @@ It makes few things:
 * preforms encodeURI to prevent collisions with double-quotes in `A href`
 * optionally, generates HTML file with `A` element to test your bookmarklet
 
+Install:
+`npm install bookbu`
+or just clone it from github.
+
 Usage:
 `bookbu.js <filename> [html]`
 
 To just parse the code and get result in the console:
-`node bookbu.js test.js`
+`bookbu.js test.js`
 
 To generate html file in which you'll get a link with your bookmarklet:
-`node bookbu.js test.js html`
+`bookbu.js test.js html`
 
 Dependencies: [uglify-js](https://github.com/mishoo/UglifyJS "uglify-js")
